@@ -1,0 +1,148 @@
+body{
+    font-family: 'IRANSansWeb';
+    background-color: #c6defa;
+}
+::selection{
+    background-color: #c6defa;
+}
+.background{
+    background-color: #c6defa;
+}
+@font-face {
+    font-family: 'Bardiya';
+    src: url('../fonts/B\ Bardiya_0.ttf');
+}
+.Bardiya{
+    font-family: 'Bardiya';
+}
+@font-face {
+    font-family: 'IRANSansWeb';
+    src: url('../fonts/IRANSansWeb\(FaNum\).ttf');
+}
+.IRANSansWeb{
+    font-family: 'IRANSansWeb';
+}
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan\ Bakh\ Regular.ttf');
+}
+.Yekan{
+    font-family: 'Yekan';
+}
+.btn-close{
+    box-shadow: none;
+    outline: 0;
+    border: none;
+}
+.btn-close:focus{
+    box-shadow: none;
+    outline: 0;
+    border: none;
+}
+.navbar-toggler{
+    box-shadow: none;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+}
+.navbar-toggler:hover{
+    box-shadow: none;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+}
+.hover:hover{
+    color: #009fcf;
+    transition: all 0.5s;
+}
+.carousel-item{
+    animation-duration: 1s;
+    animation-delay: 0;
+}
+.foucus-none:focus{
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+}
+.dropdown-menu{
+    background-color: #c6defa;
+}
+
+.dropdown-item:hover{
+    background-color: #c6defa;
+    border-right: 3px solid #9ea1a1;
+}
+.dropdown-menu:hover{
+    display: block;
+}
+.form-control{
+    border-radius: 10px;
+    border: 1px solid #a4a4f3;
+    color: black;
+}
+.form-control:focus{
+    color: #4d4d4d;
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #a4a4f3;
+    background-color: #bed9f7;
+}
+.button-style{
+    border: 1px solid #a4a4f3;
+    border-radius: 13px;
+    background-color: #c6defa;
+    box-shadow: inset 5px 5px 10px #c6defa,
+                inset -5px -5px 10px #c6defa;
+    padding: 15px;
+}
+.button-style:hover{
+    background-color: #c6defa;
+}
+.animation{
+    animation: animation 1s infinite;
+}
+.animation:hover{
+    animation: none;
+}
+@keyframes animation {
+    100%{
+        transform: translateX(1.5px);
+    }
+}
+.translate{
+    transform: rotate(15deg);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    user-select: none;
+}
+.translate-upside{
+    transform: rotate(-5deg);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    user-select: none;
+}
+.translate-box{
+    background-color: #e2abab;
+    border-top: 2px solid #008cff;
+    border-left: 2px solid #fa6464;
+    border-right: 2px solid #008cff;
+    border-bottom: 2px solid #fa6464;
+    border-radius: 50%;
+    margin: 25px 10px 0 0;
+    padding: 10px;
+    transform: rotate(15deg);
+    font-size: 22px;
+}
+.border-radius{
+    border-radius: 50%;
+}
